@@ -59,26 +59,26 @@ export const Restaurante = () => {
  
 
   <div class="container2"/>
-  <div class="row1">
-    <div class="col-md-4">Reseña</div>
-    <div class="col-md-4 ms-auto">Valoración</div>
-  </div>
+    <div class="row1">
+      <div class="col-md-4"><b>Reseña</b></div>
+      <div class="col-md-4 ms-auto"><b>Valoración</b></div>
+    </div>
 
 
-  <div class="card-group">
-  <div class="card">
-    <img src="https://media-cdn.tripadvisor.com/media/photo-s/1c/1b/7b/13/area-interna.jpg" class="card-img-top" alt="..."/>
-    
+    <div class="card-group">
+    <div class="card">
+      <img src="https://media-cdn.tripadvisor.com/media/photo-s/1c/1b/7b/13/area-interna.jpg" class="card-img-top" alt="..."/>
+      
+    </div>
+    <div class="card">
+      <img src="https://www.laguiago.com/wp-content/uploads/2020/12/RESTAURANTE-ALMA-MATER-7-scaled-1.jpg" class="card-img-top" alt="..."/>
+      
+    </div>
+    <div class="card">
+      <img src="https://www.hoteles-silken.com/content/imgsxml/galerias/panel_sliderheaderhotel/1/t-restaurante-etxaniz-015971.jpg" class="card-img-top" alt="..."/>
+      
   </div>
-  <div class="card">
-    <img src="https://www.laguiago.com/wp-content/uploads/2020/12/RESTAURANTE-ALMA-MATER-7-scaled-1.jpg" class="card-img-top" alt="..."/>
-    
   </div>
-  <div class="card">
-    <img src="https://www.hoteles-silken.com/content/imgsxml/galerias/panel_sliderheaderhotel/1/t-restaurante-etxaniz-015971.jpg" class="card-img-top" alt="..."/>
-    
-  </div>
-</div>
 
 
 

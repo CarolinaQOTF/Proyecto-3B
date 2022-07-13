@@ -28,6 +28,13 @@ button{
 }
 .card-group{
     width: 1050px;
-    margin-left: 240px;
+    margin-left: 100px;
     margin-top: 200px;
+}
+.row1{
+    font-size: 40px;
+    margin-top: 4cm;
+}
+.col-md-4{
+    margin-top: -1cm;
 }
