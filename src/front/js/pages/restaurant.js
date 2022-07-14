@@ -1,30 +1,27 @@
 import React, { useContext } from "react";
 import { Context } from "../store/appContext";
-import rigoImageUrl from "../../img/rigo-baby.jpg";
-import "../../styles/home.css";
+import "../../styles/perfilRestaurante.css";
+
+
 
 export const Restaurante = () => {
   const { store, actions } = useContext(Context);
+  const restaurante={
+    id:1,
+    nombre:"Casa Paco",
+    email:"pepito99@gmail.com",
+    descripcion:"Las mejores comidas ...",
+    tipoDeLocal:"Restaurante",
+      direccion:{
+        id:1,
+        barrio:"La Mejostilla",
+        calle:"Manuel Castillo",
+        numero:99
+      }
+  }
 
   return (
-    <><ul className="nav">
-		<li className="nav-item">
-		  <a className="nav-link " aria-current="page" href="#">
-			Home
-		  </a>
-		</li>
-		<li className="nav-item">
-		  <a className="nav-link" href="#">
-			Imagenes 
-		  </a>
-		</li>
-		<li className="nav-item">
-		  <a className="nav-link" href="#">
-			Recomendaciones
-		  </a>
-		</li>
-		<button>Sing out</button>
-	  </ul>
+    <>
 
     <div className="card mb-3" style={{width: "540px;" }}>
   <div className="row g-0">

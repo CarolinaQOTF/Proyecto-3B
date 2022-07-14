@@ -1,6 +1,6 @@
 import React from "react";
 import "../../styles/home.css";
-import { Restaurante } from "./restaurant";
+
 
 export const Home = () => {
   return (
