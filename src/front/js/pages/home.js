@@ -1,7 +1,6 @@
 import React from "react";
 import "../../styles/home.css";
-import { Link } from "react-router-dom";
-import CargaDeFoto from "../component/cargaDeFoto";
+
 
 export const Home = () => {
   return (
